@@ -4,14 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32086dd1-7666-4ef1-94da-2ae1c899ea01" name="Changes" comment="&quot;0425&quot;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="32086dd1-7666-4ef1-94da-2ae1c899ea01" name="Changes" comment="&quot;0427&quot;">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/CustomErrorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/WebMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/dto/Adm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/dto/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/dto/Cust.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/dto/MarkerDesc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/frame/KBMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/frame/KBService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/mapper/AdmMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/mapper/CartMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/mapper/CustMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/service/AdmService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/service/CartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/service/CustService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4jdbc.log4j2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis/admmapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis/cartmapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis/custmapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/adminfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/center.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/loginfail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/loginok.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/registerok.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/logback.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/logback.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/Clone0425Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/AdminApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/ServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/ServletInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/AdminApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/AdminApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/controller/ItemController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/dto/CustDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/dto/ItemDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/dto/Sales.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/jsp/charts.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/charts.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/jsp/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/livechart.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/tables.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/tables.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kbstar/LombokTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kbstar/LombokTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kbstar/Web03ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kbstar/AdminApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +59,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="Class" />
         <option value="Jsp File" />
       </list>
     </option>
@@ -45,7 +81,7 @@
     </option>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2OdN0BO1cgQq3GQe5NdCt8xYZhF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -53,42 +89,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/spring/admin/src/main/java/com/kbstar",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "spring.configuration.checksum": "21232f297a57a5a743894a0e4a801fc3",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/spring/ws0502&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;21232f297a57a5a743894a0e4a801fc3&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\spring\admin\src\main\resources\mybatis" />
+      <recent name="C:\spring\admin\src\main\webapp\views" />
+      <recent name="C:\spring\admin\src\test\java\com\kbstar" />
+      <recent name="C:\spring\admin\src\main\resources" />
       <recent name="C:\spring\admin\src\main\java\com\kbstar" />
-      <recent name="C:\spring\clone0425\src\main\resources" />
-      <recent name="C:\spring\clone0425\src\main\webapp\views" />
-      <recent name="C:\spring\clone0425\src\main\java\com\kbstar\controller" />
-      <recent name="C:\spring\ws0420\src\main\resources\static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\spring\admin\src\main\webapp\views" />
+      <recent name="C:\spring\admin\src\main\webapp\views\jsp" />
       <recent name="C:\spring\clone0425\src\main\webapp\views" />
       <recent name="C:\spring\clone0425\src\main\webapp\views\jsp" />
       <recent name="C:\spring\clone0425\src\main\resources\static\img" />
-      <recent name="C:\spring\web04\src\main\resources\static\img" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.kbstar" />
@@ -106,7 +143,37 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AdminApplication">
+  <component name="RunManager" selected="JUnit.SelectTest">
+    <configuration name="SelectTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kbstar.adm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kbstar.adm" />
+      <option name="MAIN_CLASS_NAME" value="com.kbstar.adm.SelectTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kbstar.item.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kbstar.item" />
+      <option name="MAIN_CLASS_NAME" value="com.kbstar.item.SelectTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="ws0420" />
       <method v="2">
@@ -170,6 +237,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SelectTest" />
+        <item itemvalue="JUnit.SelectTest (1)" />
         <item itemvalue="Spring Boot.AdminApplication" />
       </list>
     </recent_temporary>
@@ -212,6 +281,13 @@
       <workItem from="1682514657976" duration="3021000" />
       <workItem from="1682554009924" duration="490000" />
       <workItem from="1682554976428" duration="2586000" />
+      <workItem from="1682604315312" duration="1028000" />
+      <workItem from="1682640174731" duration="22000" />
+      <workItem from="1682995125370" duration="2014000" />
+      <workItem from="1683005124626" duration="11762000" />
+      <workItem from="1683032038203" duration="1389000" />
+      <workItem from="1683039497653" duration="157000" />
+      <workItem from="1683039709210" duration="2425000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;0425&quot;">
       <created>1682468266867</created>
@@ -241,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682470212597</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="&quot;0427&quot;">
+      <created>1682604356097</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1682604356097</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,6 +346,7 @@
       <path value="$PROJECT_DIR$/../../" />
     </ignored-roots>
     <MESSAGE value="&quot;0425&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;0425&quot;" />
+    <MESSAGE value="&quot;0427&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;0427&quot;" />
   </component>
 </project>

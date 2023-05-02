@@ -11,7 +11,6 @@ public class AdminApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(AdminApplication.class, args);
 	}
-
 	@Bean
 	public InternalResourceViewResolver setupViewResolver() {
 		InternalResourceViewResolver resolver = new InternalResourceViewResolver();
@@ -19,5 +18,4 @@ public class AdminApplication {
 		resolver.setSuffix(".jsp");
 		return resolver;
 	}
-
 }
